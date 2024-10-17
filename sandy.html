@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/..." alt="Profile Picture" class="profile-pic"> <!-- Add your profile picture here -->
+
+            <p>Hello! I'm Saraswathi! I am passionate about technology and software development. I enjoy learning new programming languages and working on projects that challenge my skills. Currently focused on fullstack development and Artificial Intelligence.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <h1>Front-End Developer</h1>
+                    <p>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills. Deployed the site on Netlify for easy access and updates.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <h2>Software Developer</h2>
+                    <p>Created a Library Management System developed using Java and MySQL for database management. The system streamlined the process of managing library resources, reducing manual errors by 60%.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <h2>Automated Password Generation Tool</h2>
+                    <p>Using a password generator reduces the risk of creating predictable or weak passwords, improving overall security, especially for sensitive accounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through any of the following platforms or send me a message directly using the form below:</p>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/pamidi-saraswathi-4573a12a7" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/PamidiSaraswathi/Suhasini.git" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="mailto:saruuupami@gmail.com">Email Me</a> <!-- Use mailto for direct email -->
+                </li>
+            </ul>
+
+            <!-- Formspree contact form -->
+            <form action="https://formspree.io/f/xwpkkaqb" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
